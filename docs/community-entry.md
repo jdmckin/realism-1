@@ -4,7 +4,7 @@
 **Creator:** @videoexpress
 **Version:** 1.0.0 · 2026-11-06
 **Tools:** VideoExpress (Create Video From Prompt, Consistent Character) · ChatGPT (agent/browser mode) · Claude (Claude in Chrome / desktop app built-in browser)
-**Tags:** consistent character, real people, reference photo, photorealistic, realistic, AI video, lip sync, accent, dialogue, multi-shot, 9:16, 16:9, TikTok, Instagram Reels, YouTube Shorts, browser automation
+**Tags:** consistent character, real people, reference photo, photorealistic, realistic, AI video, lip sync, accent, dialogue, multi-shot, 16:9, widescreen, browser automation
 
 ## Short description
 
@@ -12,7 +12,7 @@ Attach one or two real photos of each person, write a one-line story and pick an
 
 ## What you get
 
-- A finished **photorealistic three-minute video**, **Vertical 9:16** (default) or **Landscape 16:9**, exported as **FullHD mp4** (1080×1920 or 1920×1080)
+- A finished **photorealistic three-minute video**, **Landscape 16:9**, exported as **FullHD mp4** (1920×1080)
 - **One or two real people** from your photos who **stay recognizable in every shot**, via a detailed 90–140-word Character Description, character anchor portraits, VideoExpress Consistent Character and Creative mode ON
 - **Lip-synced dialogue in the accent you choose** (British, Australian, American, Irish, Indian English…), kept steady with a Voice Lock repeated word for word in every clip
 - **Fast pacing:** Plan 25 × 8 s Multi-shot clips with 2–3 shots each, or 42 × 5 s Single-shot clips, then trim to 3:00
@@ -57,8 +57,7 @@ Part B, for every assistant:
 2. (Optional) Character 2 photos: 1–2 photos of a second person, plus their name
 3. Story: what should they do? (one or two sentences)
 4. Accent: how should each person sound? (British, Australian, American, Irish, Indian English… English only for now)
-5. (Optional) Format: Vertical 9:16 (default) or Landscape 16:9
-6. (Optional) Pacing: Multi-shot (default, 2–3 quick cuts inside every clip) or Single-shot"
+5. (Optional) Pacing: Multi-shot (default, 2–3 quick cuts inside every clip) or Single-shot"
 If I already attached photos and filled in the lines at the bottom of this message, Part B becomes: "Reply 'done' once Full access is on and I'll start." (Claude: just start.)
 
 STEP 1: LOAD MY PLAYBOOK FROM GITHUB (public, no login needed)
@@ -78,7 +77,7 @@ If a browser or process error appears ("process launcher failed", "browser-contr
 Every video must be dramatic, intense and emotionally affecting. Choose one feeling the viewer should carry out of the story. Open on a moment of pressure, quickly show what the protagonist wants and what they could lose, and make each beat raise the stakes or change a relationship. Around 2:05, use an earned reveal or a difficult choice to turn the story. End with a visible consequence and a final image that lands the emotion. Use restrained dialogue, readable reactions, purposeful silence and sound to build intensity.
 
 IF GITHUB WON'T LOAD AT ALL, produce anyway with these essentials:
-Upload my photos: Media Library → My Media → Images → Upload file. Create with AI → Create Video From Prompt → Vertical 9:16. Image Type "Photorealistic (Cinematic)", Use Creative mode ALWAYS ON, "Automatically enhance my image prompt" OFF, Lipsync HD OFF, public gallery OFF. Use Consistent Character ON (I click I Agree on its one-time disclaimer). Write a very detailed 90–140-word description of each person (face shape, cheeks, jaw, eyes, brows, nose, lips, skin tone and texture, hair, build, plus one fixed outfit) and paste it verbatim into every image prompt. Make one chest-up anchor per character from only their photo in Reference Photo, pick the closest, click + Consistent Character. Then Reference Photo = Character 1 anchor, Reference Photo 2 = Character 2 anchor. Advanced Mode ON → untick "Automatically enhance my video prompt" (it is on by default), Set Manual Video Length to 8 s for Multi-shot or 5 s for Single-shot. For every session, plan a finished 3:00 timeline using 25 Multi-shot clips or 42 Single-shot clips as a starting point. Each video prompt: starts "C## —", one present-tense paragraph, one take for Single-shot or 2–3 shots joined by "A hard cut transitions to…", shot size + camera named per shot, the speaker named by visible traits right before a quoted line of max 8 words, said "speaking English with a [accent] accent" in the same voice words every clip, the listener "lips closed, does not speak", ends with the sounds and "no music". Max 5 videos rendering at once: submit the next only when one finishes. Then: Media Library → My AI Videos → clips in order on track 1 → Auto Align Clips → trim dead air at each clip's start and end only → Auto Align Clips. Before export, verify the aligned timeline ends at 3:00. If it runs short, generate an additional story beat. If it runs long, tighten pauses or shorten a non-dialogue beat while preserving complete lines. Then Save → Export Video (High / FullHD / mp4) → send me the link from My Videos.
+Upload my photos: Media Library → My Media → Images → Upload file. Create with AI → Create Video From Prompt → Landscape 16:9 (re-check before each image and video render). Image Type "Photorealistic (Cinematic)", Use Creative mode ALWAYS ON, "Automatically enhance my image prompt" OFF, Lipsync HD OFF, public gallery OFF. Use Consistent Character ON (I click I Agree on its one-time disclaimer). Write a very detailed 90–140-word description of each person (face shape, cheeks, jaw, eyes, brows, nose, lips, skin tone and texture, hair, build, plus one fixed outfit) and paste it verbatim into every image prompt. Make one chest-up anchor per character from only their photo in Reference Photo, pick the closest, click + Consistent Character. Then Reference Photo = Character 1 anchor, Reference Photo 2 = Character 2 anchor. Advanced Mode ON → untick "Automatically enhance my video prompt" (it is on by default), Set Manual Video Length to 8 s for Multi-shot or 5 s for Single-shot. For every session, plan a finished 3:00 timeline using 25 Multi-shot clips or 42 Single-shot clips as a starting point. Each video prompt: starts "C## —", one present-tense paragraph, one take for Single-shot or 2–3 shots joined by "A hard cut transitions to…", shot size + camera named per shot, the speaker named by visible traits right before a quoted line of max 8 words, said "speaking English with a [accent] accent" in the same voice words every clip, the listener "lips closed, does not speak", ends with the sounds and "no music". Max 5 videos rendering at once: submit the next only when one finishes. Then: Media Library → My AI Videos → clips in order on track 1 → Auto Align Clips → trim dead air at each clip's start and end only → Auto Align Clips. Before export, verify the aligned timeline ends at 3:00. If it runs short, generate an additional story beat. If it runs long, tighten pauses or shorten a non-dialogue beat while preserving complete lines. Set the editor canvas to Landscape 16:9. Then Save → Export Video (High / FullHD / mp4). Verify the exported video is 1920×1080 before sharing the link from My Videos.
 
 (Optional: fill these in, attach the photos, and skip the question)
 Character 1 name + accent:

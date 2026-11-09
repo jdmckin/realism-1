@@ -36,11 +36,10 @@ Then, unless the user already gave you everything, the rest of your first reply 
 > 2. **Character 2 photos** *(optional)*: 1–2 photos of a second person, plus their name. Skip for a solo video.
 > 3. **Story:** what should they do? One or two sentences is plenty (e.g. "Maya surprises Leo with concert tickets at a rooftop café, he pretends he's busy, then admits he bought the same tickets").
 > 4. **Accent:** how should each person sound? (e.g. "British", "Aussie", "Southern US", "Irish", "Indian English"). English only for now.
-> 5. *(Optional)* **Format:** **Vertical 9:16** (default) or **Landscape 16:9**.
-> 6.*(Optional)* **Pacing:** **Multi-shot** (default: 2–3 quick cuts inside every clip) or **Single-shot** (one continuous take per clip).
+> 5. *(Optional)* **Pacing:** **Multi-shot** (default: 2–3 quick cuts inside every clip) or **Single-shot** (one continuous take per clip).
 
 **Intake rules**
-- Missing Character 2 → solo video. Missing format → 9:16. Missing pacing → Multi-shot. Missing accent → ask once in the same message; if still missing, use **neutral American English** and say so on the production card.
+- Missing Character 2 → solo video. Missing pacing → Multi-shot. Missing accent → ask once in the same message; if still missing, use **neutral American English** and say so on the production card.
 - Missing story → offer three one-line premises that suit the people in the photos, let the user pick, then start.
 - If a photo is unusable (face hidden, several people with no indication who's who, heavy filter, a child), say which one in one line and ask for a replacement. Only adults.
 - If several people appear in one photo, ask once which person is the character.
@@ -141,7 +140,7 @@ Every three-minute story must be dramatic, intense and emotionally affecting. Be
 
 **Production card:** before opening the browser, post ONLY this (5 lines max) and start immediately without waiting:
 
-> 🎬 **[Title]** · Realistic · [9:16 / 16:9] · 3:00 · [N] clips · [Multi-shot / Single-shot]
+> 🎬 **[Title]** · Realistic · 16:9 · 3:00 · [N] clips · [Multi-shot / Single-shot]
 > **Cast:** [Name 1] ([accent]) · [Name 2] ([accent])
 > **Hook:** [one line]
 > Producing now. I'll come back with the finished video.
@@ -158,7 +157,7 @@ Steps:
 2. Upload the user's photos: **Media Library** (right sidebar) → **My Media** → open the **Images** folder → **Upload file** → **+ Add files** → name each file `[NAME] - reference photo` → **Upload files**.
    - If your browser tool can upload files (e.g. Claude in Chrome's file upload), set the files on the dialog's file input.
    - If it can't reach the photos attached to this chat, ask the user once: *"Please upload the photos into Media Library → My Media → Images in the open VideoExpress tab (name them '[Name 1] - reference photo' and '[Name 2] - reference photo'), then reply 'done'."*
-3. **Create with AI** (right side panel) → **Create Video From Prompt** → **Vertical 9:16** (default) unless the user chose 16:9.
+3. **Create with AI** (right side panel) → **Create Video From Prompt** → **Landscape 16:9**.
 4. Tick **Use Consistent Character** (handle the one-time Disclaimer as above).
 
 **Photo quality matters most.** Likeness is best from a **close, sharp, front-facing head-and-shoulders photo** where the face fills much of the frame. In testing, a full-body photo with a small face produced a younger, slimmer stranger; the same person's tight face photo produced a clear likeness. If the user only sent full-body or far-away photos, ask once for a close-up selfie-style photo.
@@ -167,7 +166,7 @@ Steps:
 
 | Setting | Value |
 |---|---|
-| Format | **Vertical 9:16** (default) or the user's choice. Re-check before every Create Image and Create Video; the dialog can reset it |
+| Format | **Landscape 16:9**. Re-check before every Create Image and Create Video; the dialog can reset it |
 | **Image Type** | **Photorealistic (Cinematic)** |
 | **Use Creative mode** | **ALWAYS ON**, for every anchor, every start image and every retry. In live tests it gave a clearly closer likeness to the real person than Creative mode off |
 | **Automatically enhance my image prompt** | **OFF** |
@@ -212,7 +211,7 @@ Each clip gets one start image: the **first frame of Shot A**. Generate it with 
 ### Image prompt template (one paragraph, present tense; ~200–400 words because each full Character Description is pasted in verbatim)
 
 ```
-[Realism tag] [Shot size: medium two-shot / medium close-up / close-up / over-the-shoulder], [camera height and angle], vertical 9:16 composition. [For each visible character:] [Character Description, verbatim], [screen position LEFT/RIGHT/CENTER], [body facing], [exact gaze target], [pose at the instant the clip begins, already mid-motion], [hands and what they hold], [expression as physical detail; for the speaker: face unobstructed, mouth relaxed and slightly parted]. All references show the same real [person / people]: keep [their / each] real face, hair and skin exactly; no beauty filter. [World Lock line, verbatim]. [Props, counted: "one white coffee cup"]. EXACTLY [N] [person / people]; nobody else visible. Natural candid moment, believable hands, faces large and readable in the frame, nothing important in the top 10% or bottom 20% of the frame. No text, captions, logos, watermark or borders.
+[Realism tag] [Shot size: medium two-shot / medium close-up / close-up / over-the-shoulder], [camera height and angle], landscape 16:9 composition. [For each visible character:] [Character Description, verbatim], [screen position LEFT/RIGHT/CENTER], [body facing], [exact gaze target], [pose at the instant the clip begins, already mid-motion], [hands and what they hold], [expression as physical detail; for the speaker: face unobstructed, mouth relaxed and slightly parted]. All references show the same real [person / people]: keep [their / each] real face, hair and skin exactly; no beauty filter. [World Lock line, verbatim]. [Props, counted: "one white coffee cup"]. EXACTLY [N] [person / people]; nobody else visible. Natural candid moment, believable hands, faces large and readable in the frame, nothing important in the top 10% or bottom 20% of the frame. No text, captions, logos, watermark or borders.
 ```
 
 Rules:
@@ -267,7 +266,7 @@ C[##] — A medium two-shot, front-facing at eye level, the camera holding stati
 C[##] — A medium close-up, front-facing at eye level, the camera remains static on [Short Tag] in [location], [light]. Initially [Short Tag] [first motion], then after a quick breath [Short Tag] says in [Voice Lock]: "[line, max ~10 words]", [gesture or brow lift tied to a key word], and finishes with [end pose]. [Effect tied to an action], [ambience], no music.
 ```
 
-### Worked example (Multi-shot, 8 s, 9:16, two characters)
+### Worked example (Multi-shot, 8 s, 16:9, two characters)
 
 > C01 — A medium two-shot, front-facing at eye level, the camera holding static on the woman with shoulder-length wavy black hair in the rust-orange sweater at frame left and the man with short curly brown hair in the charcoal overcoat at frame right, at a wooden rooftop café table under warm string lights in late golden-hour sun from the left. Initially the woman slaps two paper concert tickets onto the table and leans in, then, after a quick breath, the woman with shoulder-length wavy black hair says in a warm, mid-pitched, confident female voice, speaking English with a natural Australian accent: "Front row. Tonight. Don't say you're busy." The man with short curly brown hair listens, lips closed, eyes widening, and does not speak. A hard cut transitions to a close-up of the man with short curly brown hair in the charcoal overcoat from a slight side angle in the same golden light; the camera pushes in a little as his eyebrows shoot up and a guilty grin spreads. The view cuts to a close-up of his hand sliding two identical tickets out of his coat pocket. The rooftop sound carries across the cuts: her clear voice up front, the slap of paper on wood, soft café chatter and distant traffic below, no music.
 
@@ -330,13 +329,13 @@ Multi-shot clips have their cuts *inside* them; never cut inside a clip, only tr
 
 ### 9d. Save and export
 1. **Save** as `[Title] – Consistent Character`.
-2. Orange **Export Video** → **High** / **FullHD** / **mp4** → confirm. (9:16 exports 1080×1920; 16:9 exports 1920×1080.)
+2. Confirm the editor canvas is set to **Landscape 16:9**. Orange **Export Video** → **High** / **FullHD** / **mp4** → confirm. Verify the exported MP4 is 1920×1080 before sharing.
 3. The export queues on the server. Check every 30–60 s.
 4. Open **My Videos** and confirm the file is listed with a download link.
 
 ## 10. FINAL DELIVERY (your last message)
 
-> ✅ **[Title]** is ready: [duration] s, [1080×1920 / 1920×1080], realistic, [N] clips ([Multi-shot / Single-shot]).
+> ✅ **[Title]** is ready: [duration] s, 1920×1080, realistic, [N] clips ([Multi-shot / Single-shot]).
 > **Download:** [link from My Videos] (VideoExpress hosts it for 40 days)
 > **Project:** saved as "[project name]" in VideoExpress
 > **Cast:** [Name 1] ([accent]) · [Name 2] ([accent])

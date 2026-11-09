@@ -15,7 +15,7 @@ Menu entries include: **Create Video From Prompt** (Image to Video · Lipsync HD
 
 | Control | Default | Set it to |
 |---|---|---|
-| **Landscape 16:9** / **Vertical 9:16** | Vertical | **Vertical 9:16** (default) or the user's choice; re-check before every Create Image and Create Video |
+| **Landscape 16:9** / **Vertical 9:16** | Varies | **Landscape 16:9**; re-check before every Create Image and Create Video |
 | **Image Prompt** (textarea) | keeps last value | select all, delete, **confirm it's empty**, type the new prompt |
 | **Video and Audio Prompt** (textarea, "New – Multi-Shot" label) | keeps last value | select all, delete, **confirm it's empty**, type a new prompt starting with `C## —` |
 | **Image Type** (select: **Human**, **2D**, **3D**, **Photorealistic (Cinematic)**, **Other**) | Human | **Photorealistic (Cinematic)** (confirmed live 2026-11-06) |
@@ -61,7 +61,7 @@ Select the best anchor image in the carousel (✓), then click **+ Consistent Ch
 - **Create Video** is often below the fold. Scroll inside the dialog with the mouse wheel.
 - The **Close** button is unreliable. Use the top-right **X**.
 - Element references go stale after every change. Re-read the page before each click so you don't toggle the wrong checkbox.
-- Generated images are 1088×1920 (vertical) and appear in a carousel, 2 per Create Image. Make sure the new one has the ✓ before you click Create Video.
+- Generated landscape images appear in a carousel, 2 per Create Image. Make sure the new one has the ✓ before you click Create Video.
 - **Cmd/Ctrl+A doesn't reliably clear the prompt boxes** (confirmed live 2026-11-06). Click into the box, select all, delete, then re-read the box and confirm it's empty before typing; delete again if text remains.
 - With Use Consistent Character on, the Image Prompt is rewritten after Create Image even with the enhancer off (see above). If it's rewritten *before* you click Create Image, the image enhancer is ON: turn it off and retype.
 
@@ -92,5 +92,5 @@ Select the best anchor image in the carousel (✓), then click **+ Consistent Ch
 
 ## Save and export
 1. **Save** (name the project `[Title] – Consistent Character`; use **Save Project As** to rename).
-2. **Export Video** → **High** / **FullHD** / **mp4** → server queue ("number N in the queue"). 9:16 exports 1080×1920; 16:9 exports 1920×1080.
+2. Set the editor canvas to **Landscape 16:9**. **Export Video** → **High** / **FullHD** / **mp4** → server queue ("number N in the queue"). Verify the exported MP4 is 1920×1080 before sharing.
 3. **My Videos** lists the finished file with a download link. Files are hosted for 40 days.

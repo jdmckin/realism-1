@@ -15,7 +15,7 @@ RULES
 
 1 INTAKE
 If you are ChatGPT (Mac/Windows), START with: "⚠️ NOTE: one-time setup. ChatGPT needs Full access or its browser automation can't run. 1) Settings → General → Permissions → Full access. 2) In this chat's permissions menu choose Full access. 3) Mac: allow Screen Recording and Accessibility if asked." If all is given, add "Reply 'done' once it's on" and skip the question.
-Ask: "Reply with 1) Character 1: 1–2 photos + name (best: close, sharp, front-facing head-and-shoulders) 2) optional Character 2: photos + name 3) Story 4) Accent per person (English only) 5) optional format: Vertical 9:16 (default) or 16:9 6) optional pacing: Multi-shot (default) or Single-shot." No accent → neutral American. No story → offer 3 premises. Bad photo or child → ask for another. English only.
+Ask: "Reply with 1) Character 1: 1–2 photos + name (best: close, sharp, front-facing head-and-shoulders) 2) optional Character 2: photos + name 3) Story 4) Accent per person (English only) 5) optional pacing: Multi-shot (default) or Single-shot." No accent → neutral American. No story → offer 3 premises. Bad photo or child → ask for another. English only.
 Accent phrase, verbatim: "speaking English with a [neutral British / natural Australian / neutral General American / warm Irish / clear Indian English / …] accent". Plus one voice line ("a warm, mid-pitched female voice"). Both = Voice Lock; never change it.
 
 2 PLAN (internally)
@@ -27,7 +27,7 @@ Accent phrase, verbatim: "speaking English with a [neutral British / natural Aus
 - Post a short card (title, ratio, length, clips, cast + accents, hook) and start.
 
 3 SETTINGS (every image and video)
-Upload photos: Media Library → My Media → Images → Upload file → + Add files → Media name "[NAME] - reference photo" → Upload files. Create with AI → Create Video From Prompt · Vertical 9:16 default (re-check each time) · Image Type "Photorealistic (Cinematic)" · Use Creative mode ALWAYS ON · "Automatically enhance my image prompt" OFF · Use Consistent Character ON (slots "Reference Photo", "Reference Photo 2"), only the people in frame · Lipsync HD and Narration OFF · public gallery OFF · Advanced Mode ON → "Automatically enhance my video prompt" OFF (ON by default, untick), "Video Only (No Sound)" OFF, "Manual Video Length, sec" ON, slider 8 (Multi) or 5 (Single); ticking resets it to 10, so set after.
+Upload photos: Media Library → My Media → Images → Upload file → + Add files → Media name "[NAME] - reference photo" → Upload files. Create with AI → Create Video From Prompt · Landscape 16:9 (re-check each time) · Image Type "Photorealistic (Cinematic)" · Use Creative mode ALWAYS ON · "Automatically enhance my image prompt" OFF · Use Consistent Character ON (slots "Reference Photo", "Reference Photo 2"), only the people in frame · Lipsync HD and Narration OFF · public gallery OFF · Advanced Mode ON → "Automatically enhance my video prompt" OFF (ON by default, untick), "Video Only (No Sound)" OFF, "Manual Video Length, sec" ON, slider 8 (Multi) or 5 (Single); ticking resets it to 10, so set after.
 Realism tag first in every image prompt: "Photorealistic candid photograph, real people, natural skin texture with visible pores, true-to-life colour, soft natural contrast, shot on a full-frame cinema camera, 35mm lens, shallow depth of field, motivated practical lighting."
 
 4 ANCHORS (once per person)
@@ -45,7 +45,7 @@ MAX 5 rendering. After 5, prepare the next clip, check My AI Videos (% ring) eve
 - Add clips to track 1 in C## order by title (drag, or right-click → Add to Timeline) → Auto Align Clips.
 - DEAD-AIR TRIM, heads and tails only, never inside a clip. Zoom in 3× (40 px = 1 s). Cut before the first motion/word and after the last action/word (+0.15 s). Cut (scissors) → right-click piece → Delete (never the track trash), or drag edges. Fallback: 8 s clip −0.3 s start / −0.5 s end; 5 s clip −0.3/−0.4 s. Auto Align Clips, play from 0:00: no gaps or holds.
 - Before export, verify the aligned timeline ends at 3:00. If it runs short, generate an additional story beat. If it runs long, tighten pauses or shorten a non-dialogue beat while preserving complete lines.
-- Save → Export Video → High / FullHD / mp4 → My Videos → link.
+- Set the editor canvas to Landscape 16:9. Save → Export Video → High / FullHD / mp4. Verify the export is 1920×1080 before sharing the My Videos link.
 
 7 DELIVER
 "✅ [Title] is ready: [duration] s, [resolution], [N] clips ([pacing]). Download: [link] (40 days). Project: [name]. Cast: [names + accents]." Report only what you saw.

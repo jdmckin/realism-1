@@ -18,7 +18,7 @@ Forked from [Realistic Mini Dramas](https://github.com/ai-playbooks/realistic-mi
    - *(optional)* **Character 2:** 1–2 photos plus a name
    - **Story:** e.g. "Maya surprises Leo with concert tickets on a rooftop, he pretends he's busy, then admits he bought the same tickets"
    - **Accent** per person: British, Australian, American, Irish, Indian English… (English only for now)
-   - *(optional)* format (Vertical 9:16 default, or 16:9), pacing (Multi-shot default, or Single-shot)
+   - *(optional)* pacing (Multi-shot default, or Single-shot)
 5. Wait. The agent produces, trims and exports, then sends you the download link.
 
 There's no audit, no preflight and no approval step. The agent only comes back to you if it can't upload the photos itself, or if VideoExpress needs you to click **I Agree** on its one-time Consistent Character disclaimer, sign in, accept its one-time Terms or top up credits.
@@ -35,12 +35,12 @@ Every three-minute story opens under pressure, raises personal stakes and ends w
 | Voice Lock | One voice line plus a normalized accent phrase per person (e.g. `speaking English with a natural Australian accent`), repeated word for word in every clip |
 | Reference photos | Uploaded to **Media Library → My Media → Images**, then picked into **Use Consistent Character → Reference Photo** / **Reference Photo 2** |
 | Anchor portraits | One chest-up portrait per person in the video's wardrobe, saved with **+ Consistent Character**; then **Reference Photo** = Character 1's anchor, **Reference Photo 2** = Character 2's anchor |
-| Look | Image Type **Photorealistic (Cinematic)**, **Use Creative mode always ON** (clearly closer likeness in live tests), image **and** video prompt enhancement **off** (the video one is on by default), public gallery **off** |
+| Look | **Landscape 16:9** for generation and the editor canvas.  Image Type **Photorealistic (Cinematic)**, **Use Creative mode always ON** (clearly closer likeness in live tests), image **and** video prompt enhancement **off** (the video one is on by default), public gallery **off** |
 | Shots | Plan **25 × 8 s** Multi-shot clips with **2–3 shots each**, or **42 × 5 s** Single-shot clips, then trim to **3:00**. Every prompt starts with a `C## —` tag |
 | Rendering | At most **5 videos in parallel**; the agent works in waves |
 | Edit | Clips in order on track 1 with **Auto Align Clips** |
 | **Dead-air trim** | Heads and tails only (the cuts inside each clip stay intact), gaps closed |
-| Export | High / FullHD / MP4 (1080×1920 or 1920×1080), with the link from **My Videos** |
+| Export | High / FullHD / MP4 (1920×1080), with the link from **My Videos** |
 
 ## Files
 
