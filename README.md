@@ -27,6 +27,8 @@ There's no audit, no preflight and no approval step. The agent only comes back t
 
 ## How it works
 
+Every three-minute story opens under pressure, raises personal stakes and ends with a visible consequence that earns the emotional payoff.
+
 | Stage | What the agent does in VideoExpress |
 |---|---|
 | Character bible | A very detailed **Character Description** per person (90–140 words: face feature by feature, skin, hair, build, plus a garment-by-garment **Wardrobe Lock**), pasted verbatim into every image prompt, and a Short Tag for video prompts; at most two locations |

@@ -21,7 +21,8 @@ Accent phrase, verbatim: "speaking English with a [neutral British / natural Aus
 2 PLAN (internally)
 - Character Description, 90–140 words, very detailed, traits stable across the photos: age, build, face shape, cheeks, jaw, chin, eyes, brows, nose, lips, skin tone/undertone/texture/marks, ears, facial hair, hair (colour, length, texture, parting, styling), accessories + garment-by-garment Wardrobe Lock (no logos). Verbatim in every image prompt. Short Tag 8–12 words of visible traits for video prompts; never re-identify by name or pronoun.
 - World Lock: max 2 locations, one line each (place, landmarks, time, light). Character 1 left, 2 right.
-- Clips: Every session targets a finished 3:00. Start with 25 Multi-shot clips × 8 s or 42 Single-shot clips × 5 s. C01 = hook, escalate, twist at ~70%, payoff at the end.
+- Clips: Every session targets a finished 3:00. Start with 25 Multi-shot clips × 8 s or 42 Single-shot clips × 5 s.
+- Every video must be dramatic, intense and emotionally affecting. Choose one feeling the viewer should carry out of the story. Open on a moment of pressure, quickly show what the protagonist wants and what they could lose, and make each beat raise the stakes or change a relationship. Around 2:05, use an earned reveal or a difficult choice to turn the story. End with a visible consequence and a final image that lands the emotion. Use restrained dialogue, readable reactions, purposeful silence and sound to build intensity.
 - One speaker per clip, max 16 words per 8 s clip (10 per 5 s), after a 0.3 s breath. Each clip: Shot A ~3 s (start image, carries the line), hard cut to Shot B ~3 s (new size/angle), optional Shot C ~2 s insert.
 - Post a short card (title, ratio, length, clips, cast + accents, hook) and start.
 

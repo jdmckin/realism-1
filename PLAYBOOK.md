@@ -115,10 +115,14 @@ Plan for 180 seconds on the finished timeline. These starting counts allow for h
 
 ### 2d. Story structure
 
-- **C01 = HOOK.** Open in the middle of the most interesting moment: a surprising line, a reveal, a question. No establishing walk-in.
-- **Middle clips = ESCALATION.** Each clip adds one new piece of information or action.
-- **~70% = TWIST.** Something flips.
-- **Last clip = PAYOFF.** A punchline, a reveal or a warm button. No slow ending, no fade.
+Every three-minute story must be dramatic, intense and emotionally affecting. Before writing prompts, name the feeling you want the viewer to leave with and the relationship, hope or fear that makes it matter.
+
+- **Opening:** Start on a moment of pressure. Show what the protagonist wants and what they stand to lose through an action or reaction the viewer can read.
+- **Escalation:** Each beat raises the cost, narrows the options or changes a relationship. Vary the pressure with brief moments of vulnerability so the audience has time to feel what is at stake.
+- **Turn (~2:05):** Pay off a detail planted earlier with a reveal or a difficult choice that changes what the character does next.
+- **Ending:** Show the consequence of that choice. Land on a specific look, gesture or image that earns the intended feeling. Give that reaction room to register before cutting.
+- **Performance and edit:** Write playable actions, restrained dialogue and meaningful silences. Use close-ups, room tone and sound changes where they clarify the emotional shift. During the final playback, check that the stakes are clear early, the pressure builds, and the ending pays off the opening. Preserve intentional reaction beats when trimming.
+
 
 ### 2e. Per-clip rules
 

@@ -19,6 +19,8 @@ The full recipe is `../../PLAYBOOK.md` at the repository root (public URL: https
 9. **5 in parallel.** Never more than 5 videos rendering; work in waves.
 10. **Dead-air trim** at each clip's head and tail only, never inside a clip, then **Auto Align Clips**. Export High / FullHD / mp4 and deliver the My Videos link.
 
+**Story requirement.** Every video must be dramatic, intense and emotionally affecting. Choose one feeling the viewer should carry out of the story. Open on a moment of pressure, quickly show what the protagonist wants and what they could lose, and make each beat raise the stakes or change a relationship. Around 2:05, use an earned reveal or a difficult choice to turn the story. End with a visible consequence and a final image that lands the emotion. Use restrained dialogue, readable reactions, purposeful silence and sound to build intensity.
+
 ## Only stop for
 A photo upload your browser can't do, the one-time Consistent Character Disclaimer (**I Agree**), a login page, a one-time Terms screen, or an out-of-credits screen. The user does it, says "done", and you continue where you stopped.
 
