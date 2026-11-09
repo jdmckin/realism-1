@@ -27,7 +27,7 @@ Full access lets ChatGPT run commands and edit files without asking, so use it i
 1. Open a **new chat** in the ChatGPT app with **Full access** selected and Agent/browser mode available.
 2. Paste the short prompt from `SYSTEM_PROMPT.md` (everything below the line). You can attach the photos and fill in the lines at the bottom of the prompt in the same message.
 3. ChatGPT's first message shows the Full access NOTE and asks for photos, names, story and accent. Reply with the photos attached.
-4. ChatGPT opens the full instructions from this public GitHub repo in its browser (`https://raw.githubusercontent.com/ai-playbooks/realistic-consistent-character-videos/main/PLAYBOOK.md`, no login needed), then produces, trims and exports.
+4. ChatGPT opens the full instructions from this public GitHub repo in its browser (`https://raw.githubusercontent.com/jdmckin/realism-1/main/PLAYBOOK.md`, no login needed), then produces, trims and exports.
 5. Upload the photos into Media Library → My Media → Images, click **I Agree** on the one-time Consistent Character disclaimer, sign in to VideoExpress or accept its one-time Terms screen when asked, then reply `done`.
 
 ## Optional: make it one click (Project or custom GPT)
@@ -47,7 +47,7 @@ Don't upload the prompt as a Knowledge file, and don't put the reference photos 
 | "I can't upload the photos" | Normal for some browser tools. In the open VideoExpress tab: **Media Library → My Media → Images → Upload file → + Add files**, name them `[Name] - reference photo`, **Upload files**, and reply `done`. |
 | VideoExpress shows a Consistent Character **Disclaimer** | One-time. Read it, click **I Agree** yourself, and reply `done`. |
 | ChatGPT can see the browser but clicks do nothing (Mac) | Grant Screen Recording and Accessibility to ChatGPT in System Settings → Privacy & Security, then restart ChatGPT. |
-| It can't reach GitHub | It falls back to the essentials built into the prompt. Or reply: `Open https://github.com/ai-playbooks/realistic-consistent-character-videos/blob/main/PLAYBOOK.md instead.` |
+| It can't reach GitHub | It falls back to the essentials built into the prompt. Or reply: `Open https://github.com/jdmckin/realism-1/blob/main/PLAYBOOK.md instead.` |
 | It asks before following the GitHub page | Reply: `Yes. That's my playbook, follow it.` |
 | It asks to approve steps or run an audit | Reply: `No audits or approvals. Follow PLAYBOOK.md and keep producing.` |
 | It refuses because the photos are of real people | Confirm in one line who they are and that you have their permission, e.g. `It's me and my colleague; we both agreed.` |
