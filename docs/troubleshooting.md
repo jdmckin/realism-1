@@ -63,7 +63,6 @@ If your platform limits instruction length, for example a custom GPT's instructi
 | **Extra or missing words** | Shorten the line (max ~8 words per shot) with a breath before and after it. |
 | **"You can generate up to 5 AI videos in parallel…"** | Normal. Nothing was created. The agent waits until a clip finishes, then clicks Create Video again. Don't make it start over. |
 | **Clips missing in My AI Videos** | They're still rendering (% ring) or the folder is stale. Leave **My AI Videos** and re-enter it. Clips are titled by their video prompt (`C01 —`, `C02 —`…). |
-| **Duration slider stuck at 10** | Ticking "Manual Video Length, sec" resets the slider to 10. Set the slider *after* ticking the box: click the handle, press Arrow Left until it reads 8 (or 5), then re-read it. |
 | **"Share this in the public gallery" checked again** | It's on by default and turns back on whenever the dialog reopens. The agent unchecks it on every generation. If you spot it checked, say "uncheck the gallery box on every generation". |
 | **Export says "number N in the queue"** | Normal server queue. Wait. The finished file appears in **My Videos** with a download link (hosted 40 days). |
 | **Dead air / pauses still in the final video** | Tell the agent: "Redo the dead-air trim at each clip's start and end only, keep the cuts inside the clips, Auto Align Clips, play it through, then re-export." If it can't play media, it uses the fixed fallback (8 s clip: −0.3 s start / −0.5 s end; 5 s clip: −0.3 s / −0.4 s). |

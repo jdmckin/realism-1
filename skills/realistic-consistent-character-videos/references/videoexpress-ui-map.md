@@ -28,7 +28,6 @@ Menu entries include: **Create Video From Prompt** (Image to Video · Lipsync HD
 | **Advanced Mode** | off | **ON** |
 | → **Automatically enhance my video prompt** | **on** | **untick it, OFF** (the enhancer rewrites prompts into a single take and strips your cuts) **(confirmed live 2026-11-06: ON by default)** |
 | → **Video Only (No Sound)** | off | OFF |
-| → **Manual Video Length, sec** (slider 3–10) | off / 5 | ON, then set the slider to **8** (Multi-shot) or **5** (Single-shot) |
 | Buttons | | **Enhance Prompt** (don't use) · **Create Image** · **+ Consistent Character** · **Create Video** |
 
 ### Uploading the reference photos (confirmed live 2026-11-06)
@@ -56,7 +55,6 @@ Select the best anchor image in the carousel (✓), then click **+ Consistent Ch
 
 ### Dialog quirks
 - The dialog **remembers every field and image** between opens. Overwrite both prompts and re-set every checkbox on every clip.
-- Ticking **Manual Video Length** resets the slider to **10**. Set the slider after ticking, then re-read it. Click the handle and use Arrow Left/Right if dragging misses.
 - **Create Video** is often below the fold. Scroll inside the dialog with the mouse wheel.
 - The **Close** button is unreliable. Use the top-right **X**.
 - Element references go stale after every change. Re-read the page before each click so you don't toggle the wrong checkbox.

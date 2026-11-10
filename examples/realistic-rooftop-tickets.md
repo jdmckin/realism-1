@@ -45,6 +45,8 @@ Two white coffee cups; one black phone (screen never readable); Maya's two plain
 | Setting | Value |
 |---|---|
 | Format | **Landscape 16:9** (re-check before every Create Image and Create Video) |
+
+The clip lengths and trim targets below illustrate one render. Use the actual generated durations to set the trim points.
 | Image Type | **Photorealistic (Cinematic)** |
 | Automatically enhance my image prompt | **OFF** |
 | Use Consistent Character | **ON**: anchors from the photos first; then **Reference Photo** = MAYA's anchor, **Reference Photo 2** = LEO's anchor (both filled for C01–C04) |
@@ -53,7 +55,6 @@ Two white coffee cups; one black phone (screen never readable); Maya's two plain
 | Advanced Mode | **ON** |
 | → Automatically enhance my video prompt | **OFF** (it is ON by default; untick it every time) |
 | → Video Only (No Sound) | **OFF** |
-| → Manual Video Length, sec | **ON**, slider at **8** (Single-shot variant: **5**) |
 | Clip math | 30 s Multi-shot → **4 clips × 8 s**, 2–3 shots each (12 shots total) |
 | Sum of trim targets | **≈ 29.4 s** |
 
@@ -96,7 +97,6 @@ One speaker per clip, one line per clip, every line inside Shot A and well under
 
 - **Speaker:** MAYA · "Front row. Tonight. Don't say you're busy." (7 words)
 - **Use Consistent Character:** Reference Photo = MAYA anchor, Reference Photo 2 = LEO anchor
-- **Manual Video Length:** 8 s
 - **Trim target:** keep ~7.3 s (cut ~0.3 s before the ticket slap; cut ~0.4 s after the hand lands on the pocket)
 
 **Image Prompt**
@@ -115,7 +115,6 @@ C01 — A medium two-shot, front-facing at eye level, the camera holding static 
 
 - **Speaker:** LEO · "Tonight? Can't, sorry. Huge work deadline." (6 words)
 - **Use Consistent Character:** Reference Photo = MAYA anchor, Reference Photo 2 = LEO anchor
-- **Manual Video Length:** 8 s
 - **Trim target:** keep ~7.2 s (cut ~0.3 s before the phone lift; cut ~0.5 s after the tickets stop moving)
 
 **Image Prompt**
@@ -134,7 +133,6 @@ C02 — A medium close-up two-shot, front-facing at eye level, the camera remain
 
 - **Speaker:** MAYA · "Wait. You bought the same tickets?" (6 words)
 - **Use Consistent Character:** Reference Photo = MAYA anchor, Reference Photo 2 = LEO anchor
-- **Manual Video Length:** 8 s
 - **Trim target:** keep ~7.4 s (cut ~0.3 s before his hand moves; cut ~0.3 s after the four-ticket insert lands)
 
 **Image Prompt**
@@ -153,7 +151,6 @@ C03 — A medium two-shot, front-facing at chest height, the camera holding stat
 
 - **Speaker:** LEO · "Spare pair? That couple. Front row's on us." (8 words)
 - **Use Consistent Character:** Reference Photo = MAYA anchor, Reference Photo 2 = LEO anchor
-- **Manual Video Length:** 8 s
 - **Trim target:** keep ~7.5 s (cut ~0.3 s before he picks up the tickets; end right as her cup reaches the toast, ~0.2 s)
 
 **Image Prompt**
@@ -174,7 +171,6 @@ Use this instead of the Multi-shot C01 when the user picks **Single-shot** pacin
 
 - **Speaker:** MAYA · "Front row. Tonight. Don't say you're busy." (7 words)
 - **Use Consistent Character:** Reference Photo = MAYA anchor only
-- **Manual Video Length:** 5 s
 - **Trim target:** keep ~4.3 s (cut ~0.3 s from the start, ~0.4 s from the end)
 
 **Image Prompt**

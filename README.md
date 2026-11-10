@@ -36,7 +36,7 @@ Every three-minute story opens under pressure, raises personal stakes and ends w
 | Reference photos | Uploaded to **Media Library → My Media → Images**, then picked into **Use Consistent Character → Reference Photo** / **Reference Photo 2** |
 | Anchor portraits | One chest-up portrait per person in the video's wardrobe, saved with **+ Consistent Character**; then **Reference Photo** = Character 1's anchor, **Reference Photo 2** = Character 2's anchor |
 | Look | **Landscape 16:9** for generation and the editor canvas.  Image Type **Photorealistic (Cinematic)**, image **and** video prompt enhancement **off** (the video one is on by default), public gallery **off** |
-| Shots | Plan **25 × 8 s** Multi-shot clips with **2–3 shots each**, or **42 × 5 s** Single-shot clips, then trim to **3:00**. Every prompt starts with a `C## —` tag |
+| Shots | Plan Multi-shot clips with **2–3 shots each** or Single-shot clips. Use the actual rendered durations to plan and trim to **3:00**. Every prompt starts with a `C## —` tag |
 | Rendering | At most **5 videos in parallel**; the agent works in waves |
 | Edit | Clips in order on track 1 with **Auto Align Clips** |
 | **Dead-air trim** | Heads and tails only (the cuts inside each clip stay intact), gaps closed |
@@ -65,7 +65,7 @@ Paste [PROMPT_COMPACT.md](PROMPT_COMPACT.md) (the part below the line) into the 
 - **Consent.** The photos are of real people. Use only likenesses you have the right to use. The agent refuses sexual, humiliating, hateful, political-impersonation, fake-news or deceptive "this really happened" content of a real person, and only works with adults.
 - **Privacy.** The agent unchecks **Share this in the public gallery** on every generation, because these are real faces.
 - **English only for now.** Accents are English accents; non-English languages aren't supported yet.
-- Each image and video generation uses your VideoExpress credits. A three-minute video starts with one anchor portrait per character plus 25 start images and 25 videos in Multi-shot mode, or 42 of each in Single-shot mode. Retries add to those counts.
+- Each image and video generation uses your VideoExpress credits. Budget one anchor portrait per character and one start image and video per clip. The clip count depends on the rendered durations. Retries add to those counts.
 - AI video can still drift (a face shifts, the wrong mouth moves, an accent wanders). The detailed Character Description, the anchor portrait and the Voice Lock keep that to a minimum; the agent regenerates clearly wrong clips.
 - Exports stay in **My Videos** for 40 days.
 

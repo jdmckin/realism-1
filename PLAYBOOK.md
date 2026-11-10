@@ -110,7 +110,7 @@ VideoExpress clips are 3–10 s long. Use **8-second clips** with **Multi-shot**
 |---|---|---|
 | **3:00 (every session)** | **25 clips × 8 s** (200 s before trim) | **42 clips × 5 s** (210 s before trim) |
 
-Plan for 180 seconds on the finished timeline. These starting counts allow for head and tail trims. Budget 20 s of total trimming for Multi-shot or 30 s for Single-shot, then adjust based on the actual usable footage (Section 9).
+Plan for 180 seconds on the finished timeline. The table uses illustrative durations. Measure the first rendered clip and revise the shot count based on the actual usable footage and expected head and tail trims (Section 9).
 
 ### 2d. Story structure
 
@@ -177,7 +177,6 @@ Steps:
 | **Advanced Mode** | **ON** |
 | → **Automatically enhance my video prompt** | **OFF**. ⚠️ It is **ON by default**; untick it every time (it rewrites prompts into a single take and strips your cuts) |
 | → **Video Only (No Sound)** | **OFF** |
-| → **Manual Video Length, sec** | **ON**, slider at **8** (Multi-shot) or **5** (Single-shot) |
 
 **Realism tag** (put at the start of every image prompt):
 `Photorealistic candid photograph, real people, natural skin texture with visible pores, true-to-life colour, soft natural contrast, shot on a full-frame cinema camera, 35mm lens, shallow depth of field, motivated practical lighting.`
@@ -283,7 +282,7 @@ For each clip:
 3. **Image Prompt** → select all, delete, type the clip's start-image prompt (Section 6).
 4. **Create Image**. Wait for the new image to appear and be selected in the carousel. Do the quick image check; regenerate if it's clearly wrong.
 5. **Video and Audio Prompt** → select all, delete, type the clip's video prompt (Section 7). It must start with `C## —`.
-6. **Advanced Mode** ON → **Automatically enhance my video prompt** OFF → **Video Only (No Sound)** OFF → **Manual Video Length** ON, then set the slider to **8** (Multi-shot) or **5** (Single-shot). Ticking the box resets the slider to 10, so set it after ticking and re-read the value. Click the slider handle, then Arrow Left/Right until it reads right.
+6. **Advanced Mode** ON → **Automatically enhance my video prompt** OFF → **Video Only (No Sound)** OFF. Use the generator’s automatic clip duration.
 7. Uncheck **Share this in the public gallery** again.
 8. Scroll the dialog down and click **Create Video** ONCE.
 9. Read the result:
