@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Removed the Creative mode setting from the production workflow.
+
 ## 1.0.0 (2026-11-06): first release
 
 Forked from [Realistic Mini Dramas](https://github.com/ai-playbooks/realistic-mini-dramas) **1.1.1**. It keeps that package's zero-preflight, browser-only design: a short `SYSTEM_PROMPT.md` that loads the full `PLAYBOOK.md` from GitHub, the ChatGPT Full access NOTE as the first message, built-in fallback essentials, the never-stop error table, and `AGENTS.md` / `CLAUDE.md` saying "run nothing, use the browser".

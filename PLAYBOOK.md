@@ -170,7 +170,6 @@ Steps:
 |---|---|
 | Format | **Landscape 16:9**. Re-check before every Create Image and Create Video; the dialog can reset it |
 | **Image Type** | **Photorealistic (Cinematic)** |
-| **Use Creative mode** | **ALWAYS ON**, for every anchor, every start image and every retry. In live tests it gave a clearly closer likeness to the real person than Creative mode off |
 | **Automatically enhance my image prompt** | **OFF** |
 | **Use Consistent Character** | **ON**, with the right reference(s) in the slots (Section 5) |
 | **Lipsync HD Video** / **Narration Video** | **OFF** (the video model makes the voice and lip sync natively) |
@@ -194,7 +193,7 @@ Avoid glossy "HDR commercial" looks: no "8K", "ultra-detailed", "hyperrealistic"
 The anchor is the clean "this is the character in the video's wardrobe" portrait. Every later shot inherits its face and clothes, so get it right.
 
 For each character, one at a time:
-1. In Create Video From Prompt, apply the Section 4 settings (**Creative mode ON**). Remove anything in both reference slots (trash icon on each thumbnail).
+1. In Create Video From Prompt, apply the Section 4 settings. Remove anything in both reference slots (trash icon on each thumbnail).
 2. Click **Reference Photo** → **Images** → select **[NAME] - reference photo** → **Choose**. Only this character's photo is in a slot.
 3. **Image Prompt** (clear the box, then type):
    ```
@@ -280,7 +279,7 @@ The dialog **remembers the previous values and can reset checkboxes**, so set ev
 
 For each clip:
 1. Dialog open (**Create with AI** → **Create Video From Prompt**). Set the format.
-2. Re-check the Section 4 settings: Image Type Photorealistic (Cinematic), **Creative mode ON**, image enhance OFF, Use Consistent Character ON with the anchors of only the people visible in this clip, Lipsync HD OFF, Narration OFF, public gallery OFF.
+2. Re-check the Section 4 settings: Image Type Photorealistic (Cinematic), image enhance OFF, Use Consistent Character ON with the anchors of only the people visible in this clip, Lipsync HD OFF, Narration OFF, public gallery OFF.
 3. **Image Prompt** → select all, delete, type the clip's start-image prompt (Section 6).
 4. **Create Image**. Wait for the new image to appear and be selected in the carousel. Do the quick image check; regenerate if it's clearly wrong.
 5. **Video and Audio Prompt** → select all, delete, type the clip's video prompt (Section 7). It must start with `C## —`.
@@ -353,7 +352,7 @@ Report only what you actually saw on screen. If the export is still queued, say 
 |---|---|
 | A click or locator times out | Re-read the page. If the change happened, move on. If not, try once more by visible text, role or coordinates. |
 | Can't upload the photos | Ask the user once to upload them into Media Library → My Media → Images in the open tab (named '[Name] - reference photo') and reply "done". |
-| Face drifts from the photos | Make sure **Creative mode is ON** and the right anchor is in the slot. Add more precise detail to the Character Description where it drifted, move it to the front of the prompt, and regenerate. If the anchor itself is off, remake it from a closer, sharper front-facing photo. |
+| Face drifts from the photos | Make sure the right anchor is in the slot. Add more precise detail to the Character Description where it drifted, move it to the front of the prompt, and regenerate. If the anchor itself is off, remake it from a closer, sharper front-facing photo. |
 | Two characters blend into one face | Give them more different Short Tags (hair, clothing colour), keep them on fixed sides, and select both references. |
 | Wrong person's mouth moves | Name the speaker by Short Tag immediately before the quote; add "[other Short Tag] listens, lips closed, and does not speak"; keep one speaker per clip; or make it a solo close-up. |
 | Accent wanders or changes between clips | Check the Voice Lock is word-for-word identical in every prompt and that video prompt enhancement is OFF. |

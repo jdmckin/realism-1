@@ -46,7 +46,6 @@ Two white coffee cups; one black phone (screen never readable); Maya's two plain
 |---|---|
 | Format | **Landscape 16:9** (re-check before every Create Image and Create Video) |
 | Image Type | **Photorealistic (Cinematic)** |
-| Use Creative mode | **ON** (always: anchors, start images and retries) |
 | Automatically enhance my image prompt | **OFF** |
 | Use Consistent Character | **ON**: anchors from the photos first; then **Reference Photo** = MAYA's anchor, **Reference Photo 2** = LEO's anchor (both filled for C01–C04) |
 | Lipsync HD Video / Narration Video | **OFF** |
@@ -68,7 +67,7 @@ Photorealistic candid photograph, real people, natural skin texture with visible
 
 ## Character anchor portraits (Section 5, once per character)
 
-Settings as above (**Creative mode ON**). Empty both slots, put only that character's photo in **Reference Photo** (picker → **Images** → `[NAME] - reference photo` → **Choose**), Create Image (2 images in the carousel), check them hard against the photo, click the closest so it has the ✓, then **+ Consistent Character**. It is saved to **My AI Images** (no naming) and drops into the next empty slot.
+Settings as above. Empty both slots, put only that character's photo in **Reference Photo** (picker → **Images** → `[NAME] - reference photo` → **Choose**), Create Image (2 images in the carousel), check them hard against the photo, click the closest so it has the ✓, then **+ Consistent Character**. It is saved to **My AI Images** (no naming) and drops into the next empty slot.
 
 **MAYA** (Reference Photo = `MAYA - reference photo` only)
 ```

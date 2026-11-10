@@ -19,7 +19,6 @@ Menu entries include: **Create Video From Prompt** (Image to Video · Lipsync HD
 | **Image Prompt** (textarea) | keeps last value | select all, delete, **confirm it's empty**, type the new prompt |
 | **Video and Audio Prompt** (textarea, "New – Multi-Shot" label) | keeps last value | select all, delete, **confirm it's empty**, type a new prompt starting with `C## —` |
 | **Image Type** (select: **Human**, **2D**, **3D**, **Photorealistic (Cinematic)**, **Other**) | Human | **Photorealistic (Cinematic)** (confirmed live 2026-11-06) |
-| **Use Creative mode** | off | **ALWAYS ON** for every anchor, start image and retry (confirmed live 2026-11-06: clearly closer likeness to the real person than off) |
 | **Automatically enhance my image prompt** | **on** | **OFF** (it rewrites your identity text) |
 | **Use Consistent Character** | off | **ON** on every image, with only the people visible in that frame (first tick shows a one-time **Disclaimer**; the user clicks **I Agree**) |
 | → **Reference Photo** / **Reference Photo 2** | empty | anchors: only that character's uploaded photo in **Reference Photo**; clips: **Reference Photo** = Character 1's anchor, **Reference Photo 2** = Character 2's anchor **(confirmed live 2026-11-06)** |
