@@ -59,6 +59,10 @@ How much to restate the first frame: one short opening clause naming each person
 - For lip-synced dialogue in one framing, prefer a single continuous take.
 
 **Timing and delivery**
+
+For each clip, record the spoken line (or mark the beat silent), its speaker or narrator, its approximate start and end within the clip, and the shot or action it accompanies. Build the start image and video prompt from that pairing. For on-camera dialogue, keep the speaker’s mouth visible from the first word through the last and time reaction cuts for the pause after the line. For off-screen voiceover, put the action or detail being described on screen as the words are heard and keep any visible mouths closed. With a prerecorded voiceover, use the audio’s actual timing as the edit reference and place picture cuts on phrase boundaries.
+
+Example (8 s): establish the oxygen gauge at 0–1 s. At 1–4 s, show Mara pointing to the falling needle as she says, “Six minutes of air.” After the last word, cut to Kael reaching for the beacon at 4–8 s. With off-screen narration, hold on the falling needle during the phrase “six minutes of air.”
 - Budget about **2.5 spoken words per second**, with a beat of silence at each end.
 - A line that starts on frame one gives lip sync nothing to lock onto; leave a short breath first.
 - Keep speech out of the final second, where it tends to arrive half-finished.

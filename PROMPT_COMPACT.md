@@ -44,6 +44,7 @@ MAX 5 rendering. After 5, prepare the next clip, check My AI Videos (% ring) eve
 - Close the dialog (top-right X). Media Library → My Media → My AI Videos (Newest); re-enter to refresh. Regenerate only broken clips (max 2).
 - Add clips to track 1 in C## order by title (drag, or right-click → Add to Timeline) → Auto Align Clips.
 - DEAD-AIR TRIM, heads and tails only, never inside a clip. Zoom in 3× (40 px = 1 s). Cut before the first motion/word and after the last action/word (+0.15 s). Cut (scissors) → right-click piece → Delete (never the track trash), or drag edges. Fallback: 8 s clip −0.3 s start / −0.5 s end; 5 s clip −0.3/−0.4 s. Auto Align Clips, play from 0:00: no gaps or holds.
+- For every clip, map each spoken line to its matching on-screen action and approximate in/out times. Keep the speaker visible through the line for lip sync. For off-screen voiceover, show the action it describes and keep visible mouths closed. Play the edited timeline with sound and fix early or late cuts, mismatched actions, and clipped words before export.
 - Before export, verify the aligned timeline ends at 3:00. If it runs short, generate an additional story beat. If it runs long, tighten pauses or shorten a non-dialogue beat while preserving complete lines.
 - Set the editor canvas to Landscape 16:9. Save → Export Video → High / FullHD / mp4. Verify the export is 1920×1080 before sharing the My Videos link.
 

@@ -40,6 +40,7 @@ Every three-minute story opens under pressure, raises personal stakes and ends w
 | Rendering | At most **5 videos in parallel**; the agent works in waves |
 | Edit | Clips in order on track 1 with **Auto Align Clips** |
 | **Dead-air trim** | Heads and tails only (the cuts inside each clip stay intact), gaps closed |
+| Audio review | Play the edited timeline with sound and verify that every spoken line coincides with its intended action. Fix mismatches before export. |
 | Export | High / FullHD / MP4 (1920×1080), with the link from **My Videos** |
 
 ## Files

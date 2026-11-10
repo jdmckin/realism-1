@@ -125,6 +125,8 @@ Every three-minute story must be dramatic, intense and emotionally affecting. Be
 
 ### 2e. Per-clip rules
 
+For each clip, record the spoken line (or mark the beat silent), its speaker or narrator, its approximate start and end within the clip, and the shot or action it accompanies. Build the start image and video prompt from that pairing. For on-camera dialogue, keep the speaker’s mouth visible from the first word through the last and time reaction cuts for the pause after the line. For off-screen voiceover, put the action or detail being described on screen as the words are heard and keep any visible mouths closed. With a prerecorded voiceover, use the audio’s actual timing as the edit reference and place picture cuts on phrase boundaries.
+
 - **One speaker per clip.** At most ONE quoted line per shot and at most TWO lines per clip (8 s), each spoken by a named character via their Short Tag.
 - **Word budget:** about 2.5 words per second of the shot that carries the line, with a breath before and after. 8-second clip: max **16 words total**; 5-second clip: max **10 words**. Shorter is better.
 - Let the line start after a tiny breath (about 0.3 s), never at the very first frame and never in the last second.
@@ -327,6 +329,8 @@ Multi-shot clips have their cuts *inside* them; never cut inside a clip, only tr
 - **If you can't judge motion or audio**, use this default at 40 px/s: 8 s clip: remove **0.3 s (12 px)** from the start and **0.5 s (20 px)** from the end; 5 s clip: **0.3 s (12 px)** and **0.4 s (16 px)**.
 - After all trims: **Auto Align Clips**, then play from 0:00 once. No black frames, no gaps, no frozen holds. Before export, verify the aligned timeline ends at 3:00. If it runs short, generate an additional story beat. If it runs long, tighten pauses or shorten a non-dialogue beat while preserving complete lines.
 
+Review every clip with sound on the assembled timeline after trimming. Confirm that each line starts and finishes over the intended action, visible dialogue matches the speaker’s mouth, and cuts preserve complete words. Correct timing by slipping the voiceover or adjusting picture cuts when audio is on a separate track. For audio baked into a clip, regenerate the affected clip if its internal timing or lip sync is wrong. Replay the corrected scene and adjacent cuts before export.
+
 ### 9d. Save and export
 1. **Save** as `[Title] – Consistent Character`.
 2. Confirm the editor canvas is set to **Landscape 16:9**. Orange **Export Video** → **High** / **FullHD** / **mp4** → confirm. Verify the exported MP4 is 1920×1080 before sharing.
@@ -341,7 +345,7 @@ Multi-shot clips have their cuts *inside* them; never cut inside a clip, only tr
 > **Cast:** [Name 1] ([accent]) · [Name 2] ([accent])
 > [Only if something went wrong: one line, e.g. "C03 was regenerated once because the wrong person spoke."]
 
-Report only what you actually saw on screen. If the export is still queued, say so and where it will appear. If you couldn't listen to the audio, say so in one line.
+Report only what you actually saw on screen. If the export is still queued, say so and where it will appear. If audio playback is unavailable, report that scene-to-voice synchronization could not be verified.
 
 ## 11. IF SOMETHING GOES WRONG (fix it and keep going)
 
